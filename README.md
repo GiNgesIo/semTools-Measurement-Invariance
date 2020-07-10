@@ -1,5 +1,5 @@
 # semTools Measurement Invariance
-This line of code is an example to get the deprecated semTools Measurement Invariance output back.
+This is an example to get the deprecated semTools Measurement Invariance output back running. The R script contains a reproducible example of the new approach using the Holzinger and Swineford (1939) dataset.
 
 In the good old days semTools used to have this simple function for Measurement Invariance:
 ```
@@ -40,7 +40,5 @@ semTools::compareFit(meq.list)
 ```
 
 The new approach probably looks more complicated to the most of us. But if you simply copy and paste the code above and **change your_model, your_data, and your_group** you are good to go.
-
-The added R script contains a reproducible example of the new approach using the Holzinger and Swineford (1939) dataset.
 
 This was first published by [Michael Clark](https://m-clark.github.io/posts/2019-08-05-comparing-latent-variables/#supplemental-measurement-invariance).
