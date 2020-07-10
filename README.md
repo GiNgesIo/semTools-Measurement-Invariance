@@ -2,7 +2,7 @@
 * This is an example to get the deprecated semTools Measurement Invariance output back
 * The R script contains a reproducible example of the new approach using the Holzinger and Swineford (1939) dataset
 
-#### In the good old days semTools used to have this simple function for Measurement Invariance:
+#### semTools used to have a simple function for Measurement Invariance
 ```
 semTools::measurementInvariance(
   model = your_model, 
@@ -11,7 +11,7 @@ semTools::measurementInvariance(
 )
 ```
 
-#### Since the old approach was deprecated to add flexibility you now have to do the following to produce the same result:
+#### But the old approach was deprecated to add flexibility. Now you have to do the following to produce the same result
 ```
 test.seq <- c("loadings","intercepts","means","residuals")
 
