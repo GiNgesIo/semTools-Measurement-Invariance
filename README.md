@@ -1,7 +1,7 @@
 # semTools Measurement Invariance
-The R script contains a reproducible example to get the deprecated semTools Measurement Invariance output using the Holzinger and Swineford (1939) dataset.
+The R script contains a reproducible example of the new approach to get the deprecated semTools measurement invariance output using the Holzinger and Swineford (1939) dataset.
 
-#### semTools used to have a simple function for Measurement Invariance:
+#### SemTools used to have a simple function for Measurement Invariance:
 ```
 semTools::measurementInvariance(
   model = your_model, 
