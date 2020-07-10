@@ -43,6 +43,4 @@ The new approach probably looks more complicated to the most of us. But if you s
 
 The added R script contains a reproducible example of the new approach using the Holzinger and Swineford (1939) dataset.
 
-
-
 This was first published by [Michael Clark](https://m-clark.github.io/posts/2019-08-05-comparing-latent-variables/#supplemental-measurement-invariance).
