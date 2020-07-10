@@ -40,6 +40,7 @@ semTools::compareFit(meq.list)
 ```
 
 The new approach probably looks more complicated to the most of us. But if you simply copy and paste the code above and **change your_model, your_data, and your_group** you are good to go.
+
 The added R script contains a reproducible example of the new approach using the Holzinger and Swineford (1939) dataset.
 
 
