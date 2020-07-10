@@ -2,7 +2,8 @@
 This line of code is an example to get the deprecated semTools Measurement Invariance output back.
 
 In the good old days semTools used to have this simple function for Measurement Invariance:
-```semTools::measurementInvariance(
+```
+semTools::measurementInvariance(
   model = your_model, 
   data = your_data, 
   group = "your_group"
@@ -10,7 +11,8 @@ In the good old days semTools used to have this simple function for Measurement 
 ```
 
 Since the old approach was deprecated to add flexibility you now have to do the following to produce the same result:
-```test.seq <- c("loadings","intercepts","means","residuals")
+```
+test.seq <- c("loadings","intercepts","means","residuals")
 
 meq.list <- list()
 
